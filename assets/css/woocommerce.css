@@ -1,0 +1,24 @@
+.mytheme-product-card {
+    border: 1px solid #ddd;
+    padding: 20px;
+    background: #fff;
+    transition: 0.3s;
+}
+.mytheme-product-card:hover {
+    box-shadow: 0 3px 10px rgba(0, 0, 0, 0.1);
+}
+.mytheme-product-card .product-thumbnail img {
+    width: 100%;
+    border-radius: 8px;
+}
+.mytheme-product-card .product-info {
+    margin-top: 10px;
+}
+.mytheme-product-card .product-title {
+    font-size: 18px;
+    font-weight: bold;
+}
+.mytheme-product-card .product-price {
+    color: #e74c3c;
+    margin-top: 5px;
+}
