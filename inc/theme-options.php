@@ -1,5 +1,6 @@
 <?php
 function mytheme_customize_register($wp_customize) {
+    
     // تنظیمات رنگ
     $wp_customize->add_section('colors_section', array(
         'title' => __('Colors', 'mytheme'),
