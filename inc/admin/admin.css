@@ -1,0 +1,27 @@
+.shopido-wrap h1{margin-bottom:16px}
+.shopido-container{display:flex;gap:24px;align-items:flex-start}
+.shopido-nav{width:220px;position:sticky;top:60px}
+.shopido-nav ul{margin:0;padding:0;list-style:none;background:#111827;border-radius:12px;overflow:hidden}
+.shopido-nav li+li a{border-top:1px solid rgba(255,255,255,.06)}
+.shopido-nav a{display:block;padding:14px 16px;color:#e5e7eb;text-decoration:none}
+.shopido-nav a.active,.shopido-nav a:hover{background:#1f2937;color:#fff}
+
+.shopido-content{flex:1;background:#fff;border-radius:12px;padding:20px;border:1px solid #e5e7eb}
+.shopido-section{padding-bottom:28px;border-bottom:1px dashed #e5e7eb;margin-bottom:28px}
+.shopido-section:last-child{border-bottom:none;margin-bottom:0}
+.shopido-section h2{margin-top:0}
+
+.field{margin:14px 0}
+.field.inline label{margin-inline-end:18px}
+.field label{display:block;font-weight:600;margin-bottom:6px}
+.field .desc{color:#6b7280;margin:6px 0 0}
+.field input[type="text"],
+.field input[type="url"],
+.field select,
+.field textarea{width:100%}
+
+.group{border:1px solid #e5e7eb;border-radius:10px;padding:14px;margin-top:14px}
+.group legend{padding:0 8px;font-weight:700}
+
+.media{display:flex;gap:8px;align-items:center}
+.media input{flex:1}
