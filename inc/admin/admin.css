@@ -1,15 +1,18 @@
+:root{
+  --sd-bg:#0b0f19; --sd-bg-2:#111827; --sd-text:#e5e7eb; --sd-accent:#0ea5e9; --sd-border:#e5e7eb33;
+}
 .shopido-wrap h1{margin-bottom:16px}
 .shopido-container{display:flex;gap:24px;align-items:flex-start}
-.shopido-nav{width:220px;position:sticky;top:60px}
-.shopido-nav ul{margin:0;padding:0;list-style:none;background:#111827;border-radius:12px;overflow:hidden}
-.shopido-nav li+li a{border-top:1px solid rgba(255,255,255,.06)}
-.shopido-nav a{display:block;padding:14px 16px;color:#e5e7eb;text-decoration:none}
-.shopido-nav a.active,.shopido-nav a:hover{background:#1f2937;color:#fff}
+.shopido-nav{width:240px;position:sticky;top:64px}
+.shopido-nav ul{margin:0;padding:8px;background:var(--sd-bg-2);border-radius:14px;list-style:none;box-shadow:0 1px 0 #0003 inset}
+.shopido-nav a{display:flex;justify-content:space-between;gap:8px;padding:12px 14px;color:var(--sd-text);text-decoration:none;border-radius:10px}
+.shopido-nav li+li a{margin-top:6px}
+.shopido-nav a.active,.shopido-nav a:hover{background:#1f2937;outline:1px solid #ffffff12;color:#fff}
 
-.shopido-content{flex:1;background:#fff;border-radius:12px;padding:20px;border:1px solid #e5e7eb}
+.shopido-content{flex:1;background:#fff;border-radius:14px;padding:22px;border:1px solid var(--sd-border);box-shadow:0 1px 2px #00000008}
 .shopido-section{padding-bottom:28px;border-bottom:1px dashed #e5e7eb;margin-bottom:28px}
 .shopido-section:last-child{border-bottom:none;margin-bottom:0}
-.shopido-section h2{margin-top:0}
+.shopido-section h2{margin-top:0;font-size:18px}
 
 .field{margin:14px 0}
 .field.inline label{margin-inline-end:18px}
@@ -18,10 +21,8 @@
 .field input[type="text"],
 .field input[type="url"],
 .field select,
-.field textarea{width:100%}
-
-.group{border:1px solid #e5e7eb;border-radius:10px;padding:14px;margin-top:14px}
+.field textarea{width:100%;border-radius:10px}
+.group{border:1px solid #e5e7eb;border-radius:12px;padding:14px;margin-top:14px;background:#fafafa}
 .group legend{padding:0 8px;font-weight:700}
-
 .media{display:flex;gap:8px;align-items:center}
 .media input{flex:1}
